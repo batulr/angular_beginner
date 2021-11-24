@@ -1,0 +1,4 @@
+<p>parent works!</p>
+<input #newFruit type="text" placeholder="Enter Fruit name" />
+<button (click)="addFruit(newFruit.value)">Add Fruit</button>
+<app-child [data]="fruits"></app-child>
