@@ -20,6 +20,9 @@ Once the project runs on the port 4200, go to the parent component by attaching 
 Next, in the validate component which can be reached by adding/validate to the url, the value of the selected radio button is displayed.
 The app folder contains another module named todo, which has the view component wherein the ng-directives are used by displaying an example. To navigate there, type '/todo/view' in the URL.
 
+ng-directives:
+![image](https://user-images.githubusercontent.com/73705377/144343849-0c4f419d-1409-4596-98bf-2cf3f1b0b02c.png)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
