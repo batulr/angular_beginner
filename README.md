@@ -14,13 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Description
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Once the project runs on the port 4200, go to the parent component by attaching /parent in the url, where using @Input() and @Output(), fruit names can be added from the parent to the child component.
+Next, in the validate component which can be reached by adding/validate to the url, the value of the selected radio button is displayed.
 
 ## Further help
 
