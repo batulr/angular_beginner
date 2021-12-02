@@ -7,6 +7,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ValidateComponent } from './validate/validate.component';
 import { FormsModule } from '@angular/forms';
+import { TodoListModule } from './todo-list/todo-list.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { FormsModule } from '@angular/forms';
     ChildComponent,
     ValidateComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, TodoListModule],
   providers: [],
   bootstrap: [AppComponent],
 })

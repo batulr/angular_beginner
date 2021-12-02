@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { ValidateComponent } from './validate/validate.component';
+import { TodoListModule } from './todo-list/todo-list.module';
 
 const routes: Routes = [
   {

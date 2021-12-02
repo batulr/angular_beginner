@@ -1,0 +1,39 @@
+<h2>ng-Directives in Angular</h2>
+<div class="main">
+  <div>
+    <input
+      type="radio"
+      value="radio1"
+      name="customRadio1"
+      [(ngModel)]="readioSelected"
+    />
+    <label for="customRadio1">Radio Button 1 </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <input
+      type="radio"
+      value="radio2"
+      name="customRadio2"
+      [(ngModel)]="readioSelected"
+    />
+    <label for="customRadio2">Radio Button 2 </label>
+  </div>
+
+  <button (click)="showContent()">Show Content</button>
+  <br />
+  <div class="display-div" *ngIf="showcontent == 'radio1'">
+    Radio Button 1 Content
+  </div>
+  <div class="display-div" *ngIf="showcontent == 'radio2'">
+    Radio Button 2 Content
+  </div>
+</div>
+<div class="btn">
+  Username:
+  <input type="text" name="usrname" [(ngModel)]="usrn" class="username" />
+  <span *ngIf="usrn != null && usrn != ''"
+    ><br />
+    Password:
+    <input type="password" name="password" class="pwd" />
+  </span>
+</div>
