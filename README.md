@@ -18,6 +18,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Once the project runs on the port 4200, go to the parent component by attaching /parent in the url, where using @Input() and @Output(), fruit names can be added from the parent to the child component.
 Next, in the validate component which can be reached by adding/validate to the url, the value of the selected radio button is displayed.
+The app folder contains another module named todo, which has the view component wherein the ng-directives are used by displaying an example. To navigate there, type '/todo/view' in the URL.
 
 ## Further help
 
